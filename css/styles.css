@@ -1,0 +1,125 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffe869;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.dishes-list {
+    background-color: rgb(80, 200, 120);
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 30px;
+    list-style-type: none;
+    border: 5px red solid;
+}
+
+.recipe-dish {
+    margin-bottom: 20px;
+    font-weight: 800;
+    background-color: rgb(80, 200, 120);
+    color: black
+}
+
+.recipe-link {
+    color: black;
+    background-color: rgb(80, 200, 120);
+}
+
+.recipe-dish:last-child {
+    margin-bottom: 0px;
+}
+
+.recipe-title {
+    text-align: center;
+}
+
+.recipe-desc {
+    text-align: center;
+    background-color: rgb(80, 200, 120);
+    border: 7px red dotted;
+    padding: 15px;
+}
+
+.recipe-img {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 7px red dotted;
+}
+
+.ingredients {
+    display: inline-block;
+    background-color: rgb(80, 200, 120);
+    border: 7px red dotted;
+    width: 400px;
+    height: 500px;
+    vertical-align: top;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.ingred-title {
+    background-color: rgb(80, 200, 120);
+    text-align: center;
+}
+
+.ingred-table {
+    background-color: rgb(80, 200, 120);
+    list-style-type: none;
+}
+
+.ingred-elem {
+    background-color: rgb(80, 200, 120);
+    margin-bottom: 9px;
+}
+
+.steps {
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(80, 200, 120);
+    border: 7px red dotted;
+    height: 500px;
+    width: 950px;
+}
+
+.steps-title {
+    background-color: rgb(80, 200, 120);
+    text-align: center;
+}
+
+.steps-table {
+    background-color: rgb(80, 200, 120);
+}
+
+.steps-elem {
+    background-color: rgb(80, 200, 120);
+    margin-bottom: 1px;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    padding: 25px 0px;
+    width: 300px;
+    height: 100px;
+    background-color: #dedbd7;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    border: 7px red dotted;
+}
+
+.btn-text {
+    background-color: #dedbd7;
+}
+
